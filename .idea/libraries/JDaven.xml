@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JDaven">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JDaven/out/artifacts/JDaven_jar/JDaven.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

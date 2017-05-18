@@ -1,0 +1,90 @@
+Chabad of Cape Cod
+745 West Main Street Hyannis MA
+41.6473134
+41.647513
+-70.2973345
+-70.2968424
+Touro Synagogue
+85 Touro Street Newport RI
+41.489617
+41.489698
+-71.3128739
+-71.3126449
+Beth Israel of Onset Cape Cod Orthodox Synagogue
+7 Locust Street Onset  MA
+41.744291164362
+41.744391164362
+-70.651603203706
+-70.651503203706
+Chabad of Barrington
+39 Lillis Avenue Barrington RI
+41.741930974037
+41.742030974037
+-71.291642986113
+-71.291542986113
+Chabad CHAI Center of West Bay
+3871 Post Road Warwick RI
+41.68485166799
+41.68495166799
+-71.453138077023
+-71.453038077023
+Chabad of College Hill
+12 Olive Street Providence RI
+41.828250229167
+41.828350229167
+-71.4043071875
+-71.4042071875
+Chabad of Rhode Island
+360 Hope Street Providence RI
+41.836198422733
+41.836298422733
+-71.401513545123
+-71.401413545123
+Yeshiva Gedolah of Providence
+262 Blackstone Blvd. Providence RI
+41.8426555625
+41.8427555625
+-71.3859729375
+-71.3858729375
+Providence Community Kollel
+671 East Ave. Pawtucket RI
+41.859360966667
+41.859460966667
+-71.3898369
+-71.3897369
+Sha`arei Tefilla
+450 Elmgrove Ave. Providence RI
+41.844354946892
+41.844454946892
+-71.392352778765
+-71.392252778765
+Providence Hebrew Day School
+450 Elmgrove Avenue Providence RI
+41.844354946892
+41.844454946892
+-71.392352778765
+-71.392252778765
+Beth Sholom
+275 Camp Street Providence RI
+41.847358857143
+41.847458857143
+-71.400703857143
+-71.400603857143
+Chabad House of Northern RI
+998 Hope St. Providence RI
+41.854581
+41.854681
+-71.3924265
+-71.3923265
+Mishkon Tfiloh
+203 Summit Avenue Providence RI
+41.852718266667
+41.852818266667
+-71.3968144
+-71.3967144
+Congregation Ohawe Sholam (Ohave Shalom)
+671 East Avenue Pawtucket RI
+41.859360966667
+41.859460966667
+-71.3898369
+-71.3897369
