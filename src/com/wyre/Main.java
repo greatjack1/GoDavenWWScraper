@@ -9,19 +9,52 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+    //The array list to hold the minyan entrys
     private static List<MinyanEntry> me = new ArrayList<>();
 
     public static void main(String[] args) {
+        //create 4 thread of work for the program to iterate throught all of the values
+        Thread th1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                getShuls(-90.00,-45.00,"Shuls1.txt");
+            }
+        });
+        th1.start();
+        Thread th2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                getShuls(-45.00,0.00,"Shuls2.txt");
+            }
+        });
+        th2.start();
+        Thread th3 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                getShuls(0.00,45.00,"Shuls3.txt");
+            }
+        });
+        th3.start();
+        Thread th4 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                getShuls(45.00,90.00,"Shuls4.txt");
+            }
+        });
+        th4.start();
+    }
+    public static void getShuls(double StartLat,double EndLat,String fileName){
         // loop through all latitudes
-        for (double lat = -90.00; lat < 90.00; lat = lat + 1) { // use a .1 stepping counter
+        for (double lat = StartLat; lat < EndLat; lat = lat + .1) { // use a .1 stepping counter
             //loop through all longitudes
-            for (double lon = -180.00; lon <= 180.90; lon = lon + .1) { //use a .1 stepping counter so that we dont miss any shuls
+            for (double lon = -180.00; lon <= 180.00; lon = lon + .1) { //use a .1 stepping counter so that we dont miss any shuls
                 System.out.println("Getting results from go daven for lat:" + lat + " Lon: " + lon);
                 try {
-                    //use my JDaven Api to get the minyanim and iterate through tehm
+                    //use my JDaven Api to get the minyanim
                     JDaven jd = new JDaven(lat, lon, 20);
                     if (jd.getMinyanim() != null) {
                         System.out.println("Number of results for these values is: " + jd.getMinyanim().length);
+                        //loop through all of the minyanim
                         for (minyanim mi : jd.getMinyanim()) {
                             System.out.println("Address of shul is: " + mi.getAddress() +" " + mi.getCity() +" "+ mi.getState());
                             MinyanEntry temp = new MinyanEntry();
@@ -67,7 +100,7 @@ public class Main {
         //now lets out put all of the shul data to a text file
         try {
             System.out.println("Starting to print the results...");
-            PrintWriter pw = new PrintWriter("data.txt");
+            PrintWriter pw = new PrintWriter(fileName);
             for(MinyanEntry em: me){
                 System.out.println("Adding " + em.getName() +" to the shul list");
              pw.println(em.getName());

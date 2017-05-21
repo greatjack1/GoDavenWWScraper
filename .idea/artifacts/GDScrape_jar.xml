@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GDScrape:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GDScrape_jar</output-path>
+    <root id="archive" name="GDScrape.jar">
+      <element id="module-output" name="GDScrape" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JDaven/out/artifacts/JDaven_jar/JDaven.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
